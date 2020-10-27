@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container .containerUser {
+    border:0.3rem solid #b5b5b5;
+    width:40rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding:1rem;
+}
+
+#container .containerUser header{
+    border-bottom: 0.01rem solid  #e0dfdf;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 0.3rem;
+    font-family: 'Staatliches', cursive;
+    color:grey;
+}
+
+#container .containerUser main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#container .containerUser .users{
+    border:0.01rem solid #e0dfdf;
+    height: 12rem;
+    width: 11.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
+
+#container .containerUser .users img{
+    object-fit: cover;
+    height: 4rem;
+    border-radius: 4rem;
+    width: 4rem;
+    margin-top: 1rem;
+}
+
+#container .containerUser .users .rodape .twiter{
+    border: 0.01rem solid #e0dfdf;
+    width: 3.8rem;
+    height: 2rem;
+    color: #5351e7;
+
+}
+
+#container .containerUser .users .rodape .reacoes{
+    border: 0.01rem solid  #e0dfdf;
+    width: 3.8rem;
+    height: 2rem;
+    color: #dddb59;
+}
+
+#container .containerUser .users .rodape .curtidas{
+    border: 0.01rem solid  #e0dfdf;
+    width: 3.8rem;
+    height: 2rem;
+}
+
+#container .containerUser .users .rodape{
+    display: flex;
+}
+
+#container .containerUser .users .rodape .curtidas img{
+    width: 1.8rem;
+    height: 1.8rem;
+    cursor: pointer;    
+    object-fit: cover;
+    margin: auto;
+    display: flex;
+}
+
+#container .containerUser .users .rodape .twiter img{
+    width: 1.8rem;
+    height: 1.8rem;
+    cursor: pointer;
+    object-fit: cover;
+    margin: auto;
+    display: flex;
+}
+
+#container .containerUser .users button{
+    border:0;
+    background-color: white;
+}
+
+#container .containerUser .users .rodape .reacoes img{
+    width: 1.8rem;
+    height: 1.8rem;
+    cursor: pointer;
+    object-fit: cover;
+    margin: auto;
+    display: flex;
+}
+
+#container .containerUserInfo{
+    border:0.1rem solid #b5b5b5;
+    width:40rem;
+    height: 20rem;
+    display: flex;
+    margin-top:inherit;
+}
+
+#container .containerUserInfo .users{
+    height: 15rem;
+    width: 14.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
+
+#container .containerUserInfo .users img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#container .containerUserInfo .table{
+    
+    height: 19rem;
+    width: 28.5rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
