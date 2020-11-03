@@ -147,3 +147,11 @@
     align-items: center;
     justify-content:space-between;
 }
+
+#container .containerUser .users button {
+    border: 0.1rem solid black;
+    border-radius: 3rem;
+    font-family: 'Nunito', sans-serif;
+    padding: revert;
+    background-color: #eeeeee;
+}
